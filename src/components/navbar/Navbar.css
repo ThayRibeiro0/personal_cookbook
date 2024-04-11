@@ -1,0 +1,43 @@
+.navbar {
+  width: 20%;
+  height: auto;
+  padding: 0px 0px;
+  align-items: center;
+  position: fixed; /* Fixa a navbar na parte superior */
+  top: 0; 
+  left: 10%;/* Define a posição superior como 0 para fixar na parte superior */
+  z-index: 1; /* Garante que a navbar esteja acima de outros elementos */
+}
+
+.navbar-nav {
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between; /* Estender os itens horizontalmente */
+}
+
+.nav-item {
+  margin-right: 5px;
+}
+
+.nav-item:first-child {
+  margin-right: 3px; /* Increase margin for the first nav item */
+}
+
+.nav-link {
+  color: #8f8f8f;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease; /* Adiciona uma transição suave ao efeito 3D */
+}
+
+.nav-link:hover {
+  transform: translateZ(5px); /* Cria o efeito 3D ao passar o mouse */
+}
+
+.fa-home {
+  margin-right: 1px;
+}
