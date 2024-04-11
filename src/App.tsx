@@ -1,9 +1,13 @@
-import React, { useState } from 'react';
-import NavBar from './components/navbar/Navbar'
+import React from 'react';
+import NavBar from './components/navbar/Navbar';
+import Home from './components/home/Home';
 
 function App() {
   return (
-    <NavBar />
+    <div>
+      <NavBar />
+      <Home />
+    </div>
   );
 }
 

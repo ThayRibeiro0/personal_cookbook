@@ -2,10 +2,16 @@
   width: 75%;
   height: auto;
   padding: 0px 0px;
+  background-color: rgb(244, 234, 227);
+  background-position: center;
+  border-radius: 3%;
+  padding-left: 10%;
+  padding-right: 15%;
   align-items: center;
+  text-align: center;
   position: fixed; 
-  top: 6%; 
-  left: 10%;
+  top: 0.3%; 
+  left: 0;
   z-index: 1; 
   font-family: 'Whisper', 'sans-serif';
   font-weight: bold;
@@ -36,6 +42,11 @@
   color: blueviolet;
 }
 
+.nav-link.active {
+  color: rgb(49, 169, 149); /* Cor do texto quando o item está ativo (clicado) */
+  font-weight: bold; /* Estilo adicional (negrito) quando o item está ativo */
+}
+
 .fa-home {
   text-decoration: none;
   margin-right: 5px;
@@ -56,6 +67,7 @@
     padding: 10px;
     flex-direction: column;
     align-items: flex-start;
+    padding-right: 23%;
   }
 
   .nav-item {

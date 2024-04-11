@@ -1,11 +1,13 @@
-import image from "../../../public/papeldeparede1.png"
+import React from 'react';
+import './Home.css'; 
 
-function Component() {
+const Home = () => {
   return (
-    <div style={{ backgroundImage:`url(${image})` }}>
-      Hello World
+    <div className="home-container">
+      <h1>Bem-vindo à Página Inicial</h1>
+      <p>Esta é a página inicial do seu aplicativo.</p>
     </div>
   );
-}
+};
 
-export { Component };
+export default Home;
