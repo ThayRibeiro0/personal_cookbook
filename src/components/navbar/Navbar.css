@@ -3,10 +3,10 @@
   height: auto;
   padding: 0px 0px;
   align-items: center;
-  position: fixed; /* Fixa a navbar na parte superior */
+  position: fixed; 
   top: 0; 
-  left: 10%;/* Define a posição superior como 0 para fixar na parte superior */
-  z-index: 1; /* Garante que a navbar esteja acima de outros elementos */
+  left: 10%;
+  z-index: 1; 
 }
 
 .navbar-nav {
@@ -15,7 +15,7 @@
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-between; /* Estender os itens horizontalmente */
+  justify-content: space-between; 
 }
 
 .nav-item {
@@ -23,7 +23,7 @@
 }
 
 .nav-item:first-child {
-  margin-right: 3px; /* Increase margin for the first nav item */
+  margin-right: 3px; 
 }
 
 .nav-link {
@@ -31,11 +31,11 @@
   text-decoration: none;
   display: flex;
   align-items: center;
-  transition: transform 0.3s ease; /* Adiciona uma transição suave ao efeito 3D */
+  transition: transform 0.3s ease; 
 }
 
 .nav-link:hover {
-  transform: translateZ(5px); /* Cria o efeito 3D ao passar o mouse */
+  transform: translateZ(5px); 
 }
 
 .fa-home {
